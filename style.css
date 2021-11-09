@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 80px;
+  color: white;
+}
+.front-cover {
+  width: 80%;
+  background: #2591ffbf;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px 25px 10px 25px;
+}
+label {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="Email"] {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+}
+input[type="submit"] {
+  width: 10%;
+  background-color: white;
+  color: #2591ffbf;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+}
+input:focus {
+  color: rgb(107, 107, 107);
+}
+.search-bar{
+  margin: auto;
+  width: 50%;
+}
+
+form div.form-action-buttons {
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+}
+tr th {
+  color: white;
+}
+table.list {
+  width: 84%;
+  margin: auto;
+}
+
+td,
+th {
+  color: rgb(82, 82, 82);
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even),
+table.list thead > tr {
+  background-color: #2591ffbf;
+}
+
+
+.findBar {
+  width: 84%;
+  margin: auto;
+} 
+
+a {
+  cursor: pointer;
+  color:  rgb(82, 82, 82);
+  margin-right: 4px;
+  border: 2px solid  rgb(82, 82, 82);
+  padding: 0px 15px 0px 12px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+
+
+
